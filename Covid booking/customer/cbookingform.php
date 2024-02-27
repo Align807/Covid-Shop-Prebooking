@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>BoOKeR</title>
+  <link rel="icon" href="./images/product-1-720x480.jpg">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/font-awesome.min.css">
+  <link rel="stylesheet" href="../css/owl.carousel.css">
+  <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/scroll.css">
+
+</head>
+
+
+  
+   
+<body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+  <!-- PRE LOADER -->
+  <section class="preloader">
+    <div class="spinner">
+      <span class="spinner-rotate"></span>
+    </div>
+  </section>
+
+
+  <!-- MENU -->
+  <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+    <div class="container">
+
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon icon-bar"></span>
+          <span class="icon icon-bar"></span>
+          <span class="icon icon-bar"></span>
+        </button>
+
+        <!-- lOGO TEXT HERE -->
+        <a href="#" class="navbar-brand">BoOKeR</a>
+      </div>
+
+      
+
+    </div>
+  </section>
+
+
+  <main>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+
+           
+              <div class="registration-form" name="login_user" id="id102">
+                <form action="" method="post" autocomplete="off">
+
+                    <!--Here maximum value should be displayed as per available slots-->
+              
+              
+                  <div style="text-align: center;">
+                    <input type="number" name="slot" placeholder="Number of slots needed" id="myInput">
+    <button type="button" name="submit" onclick="myFunction()">CONFIRM</button>
+    </div> 
+                    <?php
+                    if(isset($_POST['submit']))
+                    {
+                        $i=$_POST['slot'];
+                        while(i!=0){
+                    
+                  ?>
+                 
+                    <div class="input-groups">
+                    <input type="text" name="sname" id="sname" required>
+                    <label for="sname">Name</label>
+                  </div>
+                  <div class="input-groups">
+                    <input type="text" name="phnumber" id="phnumber" required>
+                    <label for="phnumber">Mobile Number</label>
+                  </div>
+                    
+                    <?php
+                    
+                        i--;}}
+                    ?>
+
+              <div class="submit-section">
+                <button type="submit" name="submit" class="submit-button">SAVE</button>
+              </div>
+
+
+
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+     
+    
+     
+    </section>
+
+  </main>
+  <br>
+
+
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-4 col-sm-6">
+          <div class="footer-info">
+            <div class="section-title">
+              <h2>Headquarter</h2>
+            </div>
+            <address>
+              <p>212 Barrington Court <br>New York, ABC 10001</p>
+            </address>
+
+            <ul class="social-icon">
+              <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+              <li><a href="#" class="fa fa-twitter"></a></li>
+              <li><a href="#" class="fa fa-instagram"></a></li>
+            </ul>
+
+            <div class="copyright-text">
+              <p>Copyright &copy; 2020 Company Name</p>
+              <p>Template by: <a href="https://www.phpjabbers.com/">PHPJabbers.com</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+          <div class="footer-info">
+            <div class="section-title">
+              <h2>Contact Info</h2>
+            </div>
+            <address>
+              <p>+1 333 4040 5566</p>
+              <p><a href="mailto:contact@company.com">contact@company.com</a></p>
+            </address>
+
+            <div class="footer_menu">
+              <h2>Quick Links</h2>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="terms.html">Terms & Conditions</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+          <div class="footer-info newsletter-form">
+            <div class="section-title">
+              <h2>Newsletter Signup</h2>
+            </div>
+            <div>
+              <div class="form-group">
+                <form action="#" method="get">
+                  <input type="email" class="form-control" placeholder="Enter your email" name="email" id="email"
+                    required>
+                  <input type="submit" class="form-control" name="submit" id="form-submit" value="Send me">
+                </form>
+                <span><sup>*</sup> Please note - we do not spam your email.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="../js/jquery.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/owl.carousel.min.js"></script>
+  <script src="../js/smoothscroll.js"></script>
+  <script src="../js/custom.js"></script>
+  <script src="../js/show-on-scroll.js"></script>
+
+</body>
+
+</html>
+
+<!-- incompletion -->
+<!-- footer correction -->

@@ -1,0 +1,290 @@
+                                             PROJECT A 
+                                            STATUS FILE
+NOTE:
+
+*Customer Files are stored in customer folder.
+*Shops Files are stored in shops folder. 
+*CSS Files are stored in css folder.
+*JavaScript Files are stored in js folder.
+*File-Saving :For Customers the file name should start with 'c'.
+              For Shops the file name should start with 's'.
+*If you want to call a File from Another Folder :folder_name/file|_name   
+*if you want to call a File from Another Folder when you are in Another Folder:../folder_name/file_name
+
+*Every Sunday Lastest Work(zip  file) Should be posted and Group Evaluation should be Done.               
+*After getting the Lastest Work please make sure that you are working on it not the old one.
+*Try to Update this File Everyday As Possible
+
+DUE-DATE-50% Completion:18/05/2021                                  
+         80% Completion:25/05/2021
+FINAL DUE-DATE:30/05/2021    
+
+TOTAL NUMBER OF PAGES(CURRENT PAGES):7
+BASE-COLOR:#063066 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                          HOME PAGE
+                                         (index.html)
+
+NAVIGATION LIST 
+from index.html to other pages.
+
+1.REGISTER(under Shops): shops/sregister.html
+2.LOGIN(under Shops) : shops/slogin.html
+3.REGISTER(option in the homeslider): customer/cregister.html
+4.CHECK(option inthe homeslider): #contact
+5.CHECK(check avilablitiy area): will be specified by Align
+6.css and js file: css/filename , js/filename
+7.HOW TO BOOK?(At Navigation Bar): NOT YET DECIDED
+8.HOME(At Navigation Bar): #
+
+
+INCOMPLETED AREAS
+
+1.FOOTER correction
+2.Content in the Home page
+3.Portal Name
+4.Final Touch Up
+5.HOW TO BOOK?
+6.Check button at bottom href
+
+
+COMPLETION STATUS
+
+Over-All:50%
+Due-Date(100% completion):
+Actual-Completed Date:
+
+
+ADDITIONAL COMMENTS
+
+Nothing Yet
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                        CUSTOMER REGISTER
+                                        (cregister.html)
+                                      customer/cotp.html
+
+NAVIGATION LIST 
+from cregister.html to other pages.
+
+1.GET OTP: cotp.html
+2.css and js files: ../css/filename , ../js/filename
+3.HOME(At Navigation Bar): ../index.html
+4.REGISTER(Under Shops): ../shops/sregister.html
+5.LOGIN(Under Shops): ../shops/slogin.html
+6.HOW TO BOOK?(At Navigation Bar): NOT YET DECIDED
+
+
+INCOMPLETED AREAS
+
+1.FOOTER correction
+2.Final Touch Up
+3.HOW TO BOOK?
+
+COMPLETION STATUS
+
+Over-All:80%
+Due-Date(100% completion):
+
+
+ADDITIONAL COMMENTS
+
+Nothing Yet                                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                        CUSTOMER OTP VERIFICATION
+                                        (cotp.html)
+                                      customer/cregister.html
+
+NAVIGATION LIST 
+from cotp.html to other pages.
+
+1.VERIFY AND SIGNIN: Forwarded to Customer Dashboard 
+2.css and js files: ../css/filename , ../js/filename
+
+
+INCOMPLETED AREAS
+
+1.FOOTER correction
+2.Customer Dashboard
+3.Final Touch Up
+
+COMPLETION STATUS
+
+Over-All:80%
+Due-Date(100% completion):
+
+
+ADDITIONAL COMMENTS
+
+Nothing Yet 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                        SHOP REGISTERATION
+                                        (sregister.html)
+                                      shops/sregister.html
+
+NAVIGATION LIST 
+from sregister.html to other pages.
+
+1.GET OTP: sotp.html
+2.css and js files: ../css/filename , ../js/filename
+3.HOME(At Navigation Bar): ../index.html
+4.BOOK YOUR SLOT(At Navigation Bar): ../customer/cregister.html
+5.HOW TO REGISTER?(At Navigation Bar): NOT YET DECIDED
+
+INCOMPLETED AREAS
+
+1.FOOTER correction
+2.Final Touch Up
+3.HOW TO REGISTER?
+
+COMPLETION STATUS
+
+Over-All:80%  
+Due-Date(100% completion):
+
+
+ADDITIONAL COMMENTS
+
+Nothing Yet  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                        SHOP LOGIN
+                                        (slogin.html)
+                                      shops/slogin.html
+
+NAVIGATION LIST 
+from slogin.html to other pages.
+
+1.LOGIN: Forwarded to Shop's Dashboard(not yet created)
+2.css and js files: ../css/filename , ../js/filename
+3.BOOK YOUR SLOT(At Navigation Bar): ../customer/cregister.html
+4.HOME(At Navigation Bar)
+
+
+INCOMPLETED AREAS
+
+1.FOOTER correction
+2.Shop's Dashboard
+3.Forgot Password 
+4.Final Touch Up
+
+
+COMPLETION STATUS
+
+Over-All:80%
+Due-Date(100% completion):
+
+
+ADDITIONAL COMMENTS
+
+Nothing Yet                                        
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                        SHOP OTP VERIFICATION 
+                                        (sotp.html)
+                                      shops/sotp.html
+
+NAVIGATION LIST 
+from sotp.html to other pages.
+
+1.VERIFY: spassword.html
+2.css and js files: ../css/filename , ../js/filename
+
+
+INCOMPLETED AREAS
+
+1.FOOTER correction
+2.Final Touch Up
+
+
+COMPLETION STATUS
+
+Over-All:80%
+Due-Date(100% completion):
+
+
+ADDITIONAL COMMENTS
+
+Nothing Yet 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                        SHOP PASSWORD CREATION PAGE
+                                        (spassword.html)
+                                      shops/spassword.html
+
+NAVIGATION LIST 
+from spassword.html to other pages.
+
+1.SET PASSWORD: sprofile.html
+2.css and js files:  ../css/filename , ../js/filename
+
+
+INCOMPLETED AREAS
+
+1.FOOTER correction
+2.Final Touch Up
+
+
+COMPLETION STATUS
+
+Over-All:80%
+Due-Date(100% completion):
+
+
+ADDITIONAL COMMENTS
+
+Nothing Yet 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                        
+SHOP FIRST TIME PROFILE PAGE
+                                        (sprofile.html)
+                                      shops/sprofile.html
+
+NAVIGATION LIST 
+from sprofile.html to other pages.
+
+1.SAVE: Forwarded to Shop's Dashboard
+2.css and js files: ../css/filename , ../js/filename
+
+
+INCOMPLETED AREAS
+
+1.FOOTER correction
+2.Shop's Dashboard
+3.Final Touch Up
+
+
+COMPLETION STATUS
+
+Over-All:80%
+Due-Date(100% completion):
+
+
+ADDITIONAL COMMENTS
+
+Nothing Yet  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------                                      
+CHECK AVAILABILITY FORM PAGE
+                                        (cavailability.html)
+                                      customer/cavailability.html
+
+NAVIGATION LIST 
+customer dashboard nav list 
+
+1.css and js files: css/filename , ../js/filename
+
+1.Check availabilty button: book slot.html (Sujo working)
+
+INCOMPLETED AREAS
+
+1.FOOTER correction
+2.Nav bar of customer dashboard needed
+3.Final Touch Up
+
+
+COMPLETION STATUS
+
+Over-All:80%
+Due-Date(100% completion): 14-5-2021
+
+
+ADDITIONAL COMMENTS
+
+check availability page is to be directed from customer dashboard
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------                                      
